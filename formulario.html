@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+</head>
+<body>
+
+<div class="campo">
+   <h1 id="titulo"> <strong>Fomulário</strong> </h1>
+   <p id="subtitulo"> Complete com suas Informações </p>
+   <br> 
+
+</div>
+
+
+
+    <form action="/pagina-processa-dados-do-form" method="post">
+    <fieldset class="grupo"> 
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required/>
+        </div>
+        <div class="campo">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" required/>
+        </div>
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required/>
+        </div>
+        <div class="campo">
+            <label for="CPF">CPF:</label>
+            <input type="CPF" id="CPF" required/>
+        </div>
+        <div class="campo">
+            <label for="RG">RG:</label>
+            <input type=RG"" id="RG" required/>
+        </div>
+        <div class="campo">
+            <label for="Telefone">Telefone:</label>
+            <input type="Telefone" id="Telefone" required/>
+        </div>
+        <div class="campo">
+            <label for="Rua">Rua:</label>
+            <input type="Rua" id="Rua" required/>
+        </div>
+        <div class="campo">
+            <label for="Numero">Numero:</label>
+            <input type="Numero" id="Numero" required/>
+        </div>
+        <div class="campo">
+            <label for="Bairro">Bairro:</label>
+            <input type="Bairro" id="Bairro" required/>
+        </div>
+        <div class="campo">
+            <label for="CEP">CEP:</label>
+            <input type="CEP" id="CEP" required/>
+        </div>
+        <div class="campo">
+            <label for="Cidade">Cidade:</label>
+            <input type="Cidade" id="Cidade" required/>
+        </div>
+        <div class="campo">
+            <label for="UF">UF:</label>
+            <input type="UF" id="UF" required/>
+        </div>
+        <div class="campo">
+            <label for="Data de nascimento">Data de nascimento:</label>
+            <input type="Data de nascimento" id="Data de nascimento" required/>
+        </div>
+        <div class="campo">
+            <label for="Titulo de eleitor">Titulo de eleitor:</label>
+            <input type="Titulo de eleitor" id="Titulo de eleitor" required/>
+        </div>
+        <div class="campo">
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+        <div class="campo"> 
+            <label> Gênero:</label>
+            <label>
+                <input type="radio" name="sexo" value="masculino" checked> Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="feminino"> Feminino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="Outro"> Outro
+            </label>
+        </div>
+        <div class="botao">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </fieldset>
+        </form>
+</body>
+</html>
